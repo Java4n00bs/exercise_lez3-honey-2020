@@ -19,7 +19,7 @@ public class Persona {
     }
 
     public String dettagli(){
-        String d = "La persona si chiama " + this.nome + " " + this.cognome + " e ha " + this.eta + " anni."
+        String d = "La persona si chiama " + this.nome + " " + this.cognome + " e ha " + this.eta + " anni.";
         return d;
     }
 }

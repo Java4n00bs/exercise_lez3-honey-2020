@@ -2,6 +2,13 @@ package exercise1;
 
 public class IMain {
     public static void main(String[] args) {
+        Impiegato impiegato1 = new Impiegato("Jane", "Aurea", 600);
+        Impiegato impiegato2 = new Impiegato("Barry", "Allen", 20000)
+        
+        System.out.println(impiegato1.aumentoSalario(10));
+        System.out.println(impiegato2.aumentoSalario(5));
+
+        // ma è da completare a casa?
 
     }
 }
