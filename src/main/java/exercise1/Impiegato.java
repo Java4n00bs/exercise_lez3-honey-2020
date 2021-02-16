@@ -19,8 +19,8 @@ public class Impiegato {
     }
 
     
-    public void aumentaSalario(int percentuale){
-      int aumento = salario * (this.percentuale/100);
+    public void aumentaSalario(double percentuale){
+      double aumento = salario * (this.percentuale/100);
       salario += aumento;
       String dd = "il salario aumentato del " + aumento + " è ora pari a " + salario;
 
