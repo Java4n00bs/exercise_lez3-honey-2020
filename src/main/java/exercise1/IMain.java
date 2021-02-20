@@ -8,7 +8,7 @@ public class IMain {
         System.out.println(impiegato1.aumentoSalario(10));
         System.out.println(impiegato2.aumentoSalario(5));
 
-        // ma è da completare a casa?
+        
 
     }
 }
