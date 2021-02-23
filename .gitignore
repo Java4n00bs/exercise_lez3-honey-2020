@@ -6,3 +6,4 @@ project/target/
 *.iml
 *.swo
 *.swp
+*.class

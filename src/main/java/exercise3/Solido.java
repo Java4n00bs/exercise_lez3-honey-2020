@@ -40,6 +40,8 @@ public class Solido {
     
 }
 
+
+// https://www.tutorialspoint.com/java/java_inheritance.htm
 public class Cubo extends Solido{
       Cubo(int altezza, int larghezza, int profondita){
         super(altezza, larghezza, profondita)
