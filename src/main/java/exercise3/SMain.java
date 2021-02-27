@@ -11,8 +11,16 @@ public class SMain {
       System.out.println(solido2.dettagli());
       System.out.println(solido3.dettagli());
 
-      System.out.println(solido1.volume());
-      System.out.println(solido2.volume());
-      System.out.println(solido3.volume());
+      System.out.println(solido1.calcVolume());
+      System.out.println(solido2.calcVolume());
+      System.out.println(solido3.calcVolume());
+
+      Solido cubo= new Cubo(3);
+
+      cubo.confrontoSolidi(cubo);
+
+      Solido sfera1 = new Sfera(10);
+      System.out.println(sfera1.dettagliSfera());
+      
     }
 }

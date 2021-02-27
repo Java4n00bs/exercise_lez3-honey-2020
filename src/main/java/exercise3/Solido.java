@@ -2,11 +2,9 @@ package exercise3;
 
 public class Solido {
 
-    int altezza, larghezza, profondita;
-    // come spiegato Solido qui sotto non c'entra con la costruzione degli altri Solidi in SMain bensì interno a Solido.java stesso
-    // sembrava ovvio ma non per me *o*
+    protected int altezza, larghezza, profondita;
+    
     public Solido(){
-      // this attribuisce caratteristiche in questo contesto? mi sembra corretto visto che dice questo e non altrove
       this.altezza = 10;
       this.larghezza = 25;
       this.profondita = 30;
@@ -18,7 +16,7 @@ public class Solido {
       this.profondita = profondita;
     }
 
-    public int volume(){
+    public int calcVolume(){
       int v = altezza * larghezza * profondita;
       return v;
     }
@@ -42,12 +40,12 @@ public class Solido {
 
 
 // https://www.tutorialspoint.com/java/java_inheritance.htm
-public class Cubo extends Solido{
-      Cubo(int altezza, int larghezza, int profondita){
-        super(altezza, larghezza, profondita)
-      }
+// public class Cubo extends Solido{
+//       Cubo(int altezza, int larghezza, int profondita){
+//         super(altezza, larghezza, profondita)
+//       }
 
-      public double getVolume(){
-        // qui trovare un modo per fare il return di volume
-      }
-}
+//       public double getVolume(){
+//         // qui trovare un modo per fare il return di volume
+//       }
+// }
